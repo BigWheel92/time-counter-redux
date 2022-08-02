@@ -12,9 +12,9 @@ class App extends Component {
 
      const btnClickHandler=e=>{
       const type=e.target.dataset.type;
-      if (type==='INCREASE_COUNTER')
+      if (type==="INCREASE_COUNTER")
         store.dispatch(increaseCounter());
-      else if (type==='DECREASE_COUNTER')
+      else if (type==="DECREASE_COUNTER")
         store.dispatch(decreaseCounter());
      }
     return (
